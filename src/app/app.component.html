@@ -1,0 +1,25 @@
+<h1>
+    {{title}}
+</h1>
+<h3 first>hey you!</h3>
+<basic [message]="'Something!!'"></basic>
+<basic [another]="'Second!!'"></basic><br/>
+<basic [another]="'Third!!'"></basic><br/>
+<button online [track]="'One Button'">One</button>
+<button [track]="'Two Button'">Two</button>
+<button [track]="'Three Button'">Three</button>
+<custom></custom>
+<custom2></custom2>
+<structural></structural>
+<div>The following is a structural directive with bindings
+</div>
+<structural2></structural2>
+<div>The following is a structural directive with a dynamic context assigned to title</div>
+<structural3></structural3>
+<storage></storage>
+<button>One </button>
+<br>
+<button *surround>Two</button>
+<br>
+<button>Three</button>
+<br>
